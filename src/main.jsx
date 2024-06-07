@@ -11,11 +11,13 @@ import './index.css'
 
 import { CssBaseline } from '@mui/material'
 import { SnackbarProvider } from 'notistack';
+import { Box, Container, TextField , Typography } from "@mui/material";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <SnackbarProvider>
     <CssBaseline/>
+    <Container/>
     <App/>
     </SnackbarProvider>
   </React.StrictMode>
